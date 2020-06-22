@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-<meta charset="UTF-8" content="pt-br">
-<title>Hor&aacute;rio de Bras&iacute;lia</title>
-<h2>Dia Comunitário</h2>
-<table class="editorDemoTable" border="1" text-align: center>
-<tbody>
-<tr>
-<td><strong>Hor&aacute;rio de Bras&iacute;lia</strong></td>
-<td><strong>Local</strong></td>
-<td><strong>Pa&iacute;s</strong></td>
-<td><strong>GeoLocaliza&ccedil;&atilde;o</strong></td>
-<td><strong>Copiar</strong></td>
-</tr>
-<tr>
-<td>18:00h ~ 21:00h</td>
-<td>London Island (Kiribati)</td>
-<td><img src="https://www.countryflags.io/NZ/shiny/24.png" /></td>
-<td><input type="text" value="1.987149,-157.47713" id="1"></button></td>
-<td><button type="button" onclick="myFunction(1)">Copiar</button></td>
-</tr>
+  <meta charset="UTF-8" content="pt-br">
+  <title>Hor&aacute;rio de Bras&iacute;lia</title>
+  <h2>Dia Comunitário</h2>
+  <table class="editorDemoTable" border="1" text-align: center>
+    <tbody>
+      <tr>
+        <td><strong>Hor&aacute;rio de Bras&iacute;lia</strong></td>
+        <td><strong>Local</strong></td>
+        <td><strong>Pa&iacute;s</strong></td>
+        <td><strong>GeoLocaliza&ccedil;&atilde;o</strong></td>
+        <td><strong>Copiar</strong></td>
+      </tr>
+      <tr>
+        <td>18:00h ~ 21:00h</td>
+        <td>London Island (Kiribati)</td>
+        <td><img src="https://www.countryflags.io/NZ/shiny/24.png" /></td>
+        <td><input type="text" value="1.987149,-157.47713" id="1"></button></td>
+        <td><button type="button" onclick="myFunction(1)">Copiar</button></td>
+      </tr>
 
-<tr>
-<td>23:00h ~ 02:00h</td>
-<td>Wellington (Nova Zel&acirc;ndia)</td>
-<td><img src="https://www.countryflags.io/NZ/shiny/24.png" /></td>
-<td><input type="text" value="-41.281784,174.768193" id="2"></button></td>
-<td><button type="button" onclick="myFunction(2)">Copiar</button></td>
-</tr>
+      <tr>
+        <td>23:00h ~ 02:00h</td>
+        <td>Wellington (Nova Zel&acirc;ndia)</td>
+        <td><img src="https://www.countryflags.io/NZ/shiny/24.png" /></td>
+        <td><input type="text" value="-41.281784,174.768193" id="2"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
 
-</tbody>
-</table>
+      <tr>
+        <td>00:00h ~ 03:00h</td>
+        <td>Daan Forest Park Taipei</td>
+        <td><img src="https://www.countryflags.io/🇹🇼/shiny/24.png" /></td>
+        <td><input type="text" value="25.0275,121.5361" id="3"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
+
+      <tr>
+        <td>01:00h ~ 04:00h</td>
+        <td>Hyde Park Sydney</td>
+        <td><img src="https://www.countryflags.io/🇦🇺/shiny/24.png" /></td>
+        <td><input type="text" value="-33.871204,151.21293" id="4"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
+
+      <tr>
+        <td>01:00h ~ 04:00h</td>
+        <td>Royal Botanical Garden Sydney</td>
+        <td><img src="https://www.countryflags.io/🇦🇺/shiny/24.png" /></td>
+        <td><input type="text" value="-33.8643,151.2155" id="5"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
+      <tr>
+        <td>02:30h ~ 05:30h</td>
+        <td>Tamil Nadu Índia</td>
+        <td><img src="https://www.countryflags.io/🇮🇳/shiny/24.png" /></td>
+        <td><input type="text" value="13.040334, 80.266604" id="6"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
+      <tr>
+        <td>05:00h ~ 08:00h</td>
+        <td>Bidadari Indonésia</td>
+        <td><img src="https://www.countryflags.io/🇮🇩/shiny/24.png" /></td>
+        <td><input type="text" value="-6.0356,106.7469" id="7"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
+      <tr>
+        <td>05:00h ~ 08:00h</td>
+        <td>NgurahRai Airport Bali Indonésia</td>
+        <td><img src="https://www.countryflags.io/🇮🇩/shiny/24.png" /></td>
+        <td><input type="text" value="-8.7467,115.1667" id="8"></button></td>
+        <td><button type="button" onclick="myFunction(2)">Copiar</button></td>
+      </tr>
+    </tbody>
+  </table>
 </head>
+
 <body>
-<script>
-function myFunction(event) {  
-  var copyText = document.getElementById(event);
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-  //alert("Copied the text: " + copyText.value);
-} 
-</script>
+  <script>
+    function myFunction(event) {
+      var copyText = document.getElementById(event);
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      //alert("Copied the text: " + copyText.value);
+    } 
+  </script>
 </body>
+
 </html>
